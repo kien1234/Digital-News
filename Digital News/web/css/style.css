@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 21, 2020, 11:20:45 AM
+    Author     : TRUNG KIEN
+*/
+body
+{
+    background-color: #E7E7E7;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 886px;
+    height: auto;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat-y;
+    margin: 0 auto;
+}
+.content
+{
+    width: 760px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.main
+{
+    width: 485px;
+    border-right: dotted 4px;
+    padding: 20px;
+    border-color: #e0e0e0;
+}
+.title
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #42554e;
+    padding-bottom: 15px;
+}
+.signature
+{
+    float: right;
+    color: #42554e;
+    font-size: 11px;
+    margin-top: 5px;
+}
+.post
+{
+    font-size: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.image img
+{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.active
+{
+    color: red !important;
+    pointer-events: none;
+}
+
+.icon1
+{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2
+{
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.image-search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.title-search a
+
+{
+    text-decoration: none;
+}
+.paging-number
+{
+    float: right;
+}
+
